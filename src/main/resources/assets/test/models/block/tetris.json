@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:blocks/tetris_texture",
+    "up": "test:blocks/tetris_texture",
+    "north": "test:blocks/tetris_texture",
+    "east": "test:blocks/tetris_texture",
+    "south": "test:blocks/tetris_texture",
+    "west": "test:blocks/tetris_texture",
+    "particle": "test:blocks/tetris_texture"
+  },
+  "render_type": "solid"
+}
