@@ -1,0 +1,187 @@
+{
+  "mod_elements": [
+    {
+      "name": "Clavier",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clavier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tetris/procedures/ClavierProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "KeyRight",
+      "type": "keybind",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_right",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tetris/network/KeyRightMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "KeyLeft",
+      "type": "keybind",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_left",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tetris/network/KeyLeftMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "E",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blocs",
+      "type": "code",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blocs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tetris/Blocs.java"
+        ]
+      }
+    },
+    {
+      "name": "KeyInit",
+      "type": "keybind",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_init",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tetris/network/KeyInitMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "KeyActivate",
+      "type": "keybind",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_activate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tetris/network/KeyActivateMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "BlocInfo",
+      "type": "code",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bloc_info",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tetris/BlocInfo.java"
+        ]
+      }
+    },
+    {
+      "name": "KeyTurn",
+      "type": "keybind",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_turn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tetris/network/KeyTurnMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Tetris",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tetris",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tetris/models/block/tetris.json",
+          "src/main/resources/assets/tetris/models/item/tetris.json",
+          "src/main/java/net/mcreator/tetris/block/TetrisBlock.java",
+          "src/main/resources/assets/tetris/blockstates/tetris.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "key.tetris.key_turn": "Key Turn",
+      "key.tetris.key_activate": "Keyb",
+      "block.tetris.tetris": "Tetris",
+      "key.tetris.key_left": "Key Left",
+      "key.tetris.key_init": "Key Init",
+      "key.tetris.key_right": "Key Right"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tetris",
+    "modName": "tetris",
+    "version": "1.0.0",
+    "author": "pry, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.tetris",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "H",
+    "keyBindingName": "Key Init",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "E"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "J",
+    "keyBindingName": "Key Turn",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Clavier"
+    }
+  }
+}

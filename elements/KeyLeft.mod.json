@@ -1,0 +1,15 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "LEFT",
+    "keyBindingName": "Key Left",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Clavier"
+    },
+    "onKeyReleased": {
+      "name": "Clavier"
+    }
+  }
+}

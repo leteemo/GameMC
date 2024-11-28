@@ -1,0 +1,15 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Keyb",
+    "keyBindingCategoryKey": "creative",
+    "onKeyPressed": {
+      "name": "Clavier"
+    },
+    "onKeyReleased": {
+      "name": "Clavier"
+    }
+  }
+}

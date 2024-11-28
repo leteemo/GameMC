@@ -1,0 +1,7 @@
+{
+  "_fv": 39,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"147\" y=\"61\"><field name=\"trigger\">block_place</field></block><block type=\"world_spawn_falling_block\" x=\"129\" y=\"209\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.BARRIER</field></block></value><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value><next><block type=\"world_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">Message</field></block></value><next><block type=\"return_number\"><value name=\"return\"><block type=\"entity_get_fly_speed\"><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></value></block></next></block></next></block></xml>"
+  }
+}
