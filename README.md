@@ -11,3 +11,5 @@ This Mod allow to play Tetris in minecraft.
 
 In creative mode, place a tetris bloc somewhere.
 ![Example](img/example.png)
+
+Use left and right touch to deplace the tetris blocks, and "j" to rotate.
